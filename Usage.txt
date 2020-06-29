@@ -1,0 +1,61 @@
+*This Function uses dependencies in order to work properly, so keep all the three files together in order to use the AC function.
+-TheBATeam
+
+------------------------------------------------------------------------
+
+ CALCULATIONS USING AC.BAT 
+
+ AUTHOR: MICHA£ BUKOWSKI  VER 1.0 
+
+ USING BC CALCULATOR 1.6 BY 
+ FREE SOFTWARE FOUNDATION, INC 
+
+
+
+	addition 	(+)	WORKS
+	subtraction	(-)	WORKS
+	multiplication	(*)	WORKS
+	division	(/)	WORKS
+	exponentiation	(^)	DOESNT WORK (by now)
+
+
+
+
+-------------------------------------------
+Calculation Usage:
+
+CALL AC.BAT C [CALCULATIONS] [OUTPUT VARIABLE]
+
+Ex. call ac.bat c (1/7)*3.5/(11+7) var1
+( OUTPUT: VAR1=0.02777777777777777777 )
+-------------------------------------------
+
+
+
+
+-------------------------------------------
+Rounding Usage:
+
+CALL AC.BAT R [VALUE] [DECIMALS] [OUTPUT VARIABLE]
+
+Ex. call ac.bat r 0.02777777777777777777 4 var2
+( OUTPUT: VAR2=0.0278 )
+
+Ex. call ac.bat r 1.9091 0 var3
+( OUTPUT: VAR3=2 )
+-------------------------------------------
+
+
+
+
+-------------------------------------------
+Calculation + Rounding Usage:
+
+CALL AC.BAT C [CALCULATIONS] [OUTPUT VARIABLE] R [DECIMALS]
+
+Ex. call ac.bat c (1/7)*3.5/(11+7) var4 r 4
+( OUTPUT: VAR4=0.0278 )
+
+Ex. call ac.bat c 12*7/(11/7) var5 r 0
+( OUTPUT: VAR5=53 )
+-------------------------------------------
